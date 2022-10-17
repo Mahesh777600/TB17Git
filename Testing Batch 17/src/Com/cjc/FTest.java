@@ -16,6 +16,7 @@ public class FTest {
 		System.setProperty("webdriver.chrome.driver", "D:\\Selinium\\Alljar\\Chrome Driver\\chromedriver_win32 (1)\\chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
+		System.out.println("chrome start");
 		
 		driver.get("https://www.flipkart.com/");
 		
